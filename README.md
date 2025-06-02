@@ -14,3 +14,24 @@ Welcome to the **Slack Bot Project** — a Python-based bot integrated with Slac
 ✅ Tracks user message counts  
 ✅ Schedules and deletes future messages  
 ✅ Uses Slack Events API via Flask for real-time interaction
+
+## 🗂️ Project Structure
+Slack-Bot/
+├── bot.py # Main application file
+├── .env # Environment variables (not committed)
+└── README.md # Project documentation
+
+
+## ⚙️ Setup Guide
+
+```bash
+git clone https://github.com/KartikeyaDookia/slack-bot.git
+cd slack-bot
+python -m venv venv
+venv\Scripts\activate          # Windows
+# OR
+source venv/bin/activate       # macOS/Linux
+pip install -r requirements.txt
+
+
+
